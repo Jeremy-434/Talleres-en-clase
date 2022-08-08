@@ -2,5 +2,5 @@
 
 tallerEnPareja Nombre de los participantes
 
-Sebastian
+Sebastian Ramirez Moreno
 Jeremy Steven Mejia Zuleta
