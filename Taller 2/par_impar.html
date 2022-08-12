@@ -33,6 +33,12 @@
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="subsidio.html">Subsidio</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="cedula.html">Cedula</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="cuadrante.html">Cuadrante</a>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -42,6 +48,17 @@
             </div>
         </nav>
     </header>
+    <!-- CONTENIDO -->
+    <article>
+        <form action="">
+            <label for="">
+                <input type="number" id="input-num_parimpar" placeholder="Escribe un numero">
+            </label>
+            <label for="">
+                <input type="submit" onclick="calcularParImpar()">
+            </label>
+        </form>
+    </article>
     <!-- Footer -->
     <footer class="text-center text-white" style="background-color: #96a8b8;">
         <!-- Grid container -->
@@ -67,6 +84,7 @@
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
+    <script src="js/par_impar.js"></script>
 </body>
 
 </html>
