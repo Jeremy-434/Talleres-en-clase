@@ -1,6 +1,6 @@
 
 const posPlaneta = () => {
-    let planetas = [, "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"];
+    const planetas = ["sol", "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"];
     let posicion = document.getElementById('input-posicion').value;
 
     for (let i = 0; i < planetas.length; i++) {

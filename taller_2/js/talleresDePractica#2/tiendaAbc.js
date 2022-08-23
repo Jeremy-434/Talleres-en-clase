@@ -21,3 +21,4 @@ if (valor_compra > 80000 && valor_compra < 250000) {
         console.log(`El valor de su compra es de ${valor_compra}.00, por lo tanto, su descuento es de ${valor_descuento}.00. El total es de ${valor_total}.00`);
     }
 }
+console.log('Hola mundo');
